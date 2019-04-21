@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# update - A script to update the cydia repo.
+
+rm -f ./beta/Packages*
+./utilities/dpkg/dpkg-scanpackages -m ./beta/debs /dev/null > ./beta/Packages
+bzip2 ./beta/Packages

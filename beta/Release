@@ -1,0 +1,8 @@
+Origin: Dezqo's Beta Repository
+Label: Dezqo's Beta Repo
+Suite: stable
+Version: 0.5
+Codename: ios
+Architectures: iphoneos-arm
+Components: main
+Description: This is my beta repo, used for testing stuff! Careful, things might break!
