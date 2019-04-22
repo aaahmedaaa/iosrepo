@@ -1,5 +1,12 @@
 ---
 layout: repohome
-title: Dezqo's Cydia Repo
+reponame: Dezqo's Cydia Repo
+title: reponame
 ---
-<h1>{{ "Hello World!" }}</h1>
+# Hello World
+{:.MyClass}
+
+{:title="My Title"}
+
+* {:.done} done - Completed this
+* Not done yet
