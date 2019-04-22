@@ -1,1 +1,14 @@
 theme: jekyll-theme-cayman
+
+reponame: "Dezqo's Repository"
+repohome: https://dezqo.github.io/cydiarepo/
+packagelist:
+
+betareponame: "Dezqo's Beta Repository"
+betarepohome: https://dezqo.github.io/cydiarepo/beta
+betapackagelist:
+
+cydialink: cydia://url/https://cydia.saurik.com/api/share#?source=https%3A%2F%2Fdezqo.github.io/cydiarepo
+betacydialink: cydia://url/https://cydia.saurik.com/api/share#?source=https%3A%2F%2Fdezqo.github.io/cydiarepo/beta
+
+packagebaselink: /&package=
