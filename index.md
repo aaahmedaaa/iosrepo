@@ -1,6 +1,6 @@
 ---
 layout: repohome
-title: site.reponame
+title: {{ site.reponame }}
 ---
 # Hello World
 {:.MyClass}
