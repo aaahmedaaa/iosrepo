@@ -1,7 +1,4 @@
----
----
-
-@import 'jekyll-theme-cayman';
+--- --- @import 'jekyll-theme-cayman';
 
 Body {
     font-family: -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,4 +6,17 @@ Body {
 
 .centext {
     text-align: center;
+}
+
+.page-header {
+    background-image: none;
+    background-color: #3a3e3b;
+}
+
+.main-content {
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    margin: 15px auto 20px auto;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
 }
