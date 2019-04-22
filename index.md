@@ -1,7 +1,6 @@
 ---
 layout: repohome
-reponame: Dezqo's Cydia Repo
-title: reponame
+title: site.reponame
 ---
 # Hello World
 {:.MyClass}
