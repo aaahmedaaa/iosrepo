@@ -2,10 +2,20 @@
 layout: depiction
 title: Mr. Robot Keyboard Sounds
 ---
-# Hey
+# Mr. Robot Keyboard Sounds
 
-## Hey 2
+A small theme that adds the keyboard sounds from the Mr. Robot game.
+
+## Installation
+
+Install with Winterboard.
 
 ### To-Do
-[ ] Implement this
-[ ] Implement that 
+
+[x] Implement this
+
+[ ] Implement that
+
+## Packages
+
+## Information
