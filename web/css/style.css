@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Myriad Set Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #2e3440;
+    color: #2E3440;
+}
+
+.intro-block {
+    border-radius: 3px;
+    background-color: #ebcb8b;
+}
+
+.intro {
+    padding: 15px 20px 0 20px;
+    border-bottom: 1px solid #2e3440;
+}
+
+.text-clipboard {
+    text-align: center;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 4px 4px;
+    background-color: #eceff4;
+    border-radius: 3px;
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list > li {
+    margin: 20px 0 5px 0;
+}
+
+.link-btn:link,
+.link-btn:visited {
+    margin: auto;
+    width: auto;
+    text-decoration: none;
+    display: block;
+    background-color: #4c566a;
+    color: #a3be8c;
+    padding: 6px 4px;
+    text-align: center;
+    border-radius: 3px;
+
+    transition: background-color 1s;
+}
+
+.link-btn:hover {
+    background-color: #3b4252;
+
+    transition: background-color 0.3s;
+}
+
+.addto-btn:link,
+.addto-btn:visited {
+    margin: auto;
+    width: auto;
+    text-decoration: none;
+    display: block;
+    color: #4c566a;
+    padding: 20px 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#footer-disclaimer {
+    position: fixed;
+    background-color: #2e3440;
+    padding: 5px 5px;
+    border-radius: 3px;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#footer-disclaimer > p {
+    margin: 0;
+    color: #434c5b;
+    text-align: center;
+}
+
+@media only screen and (min-width: 900px) {
+    body {
+        width: 900px;
+        margin: 20px auto;
+    }
+}
