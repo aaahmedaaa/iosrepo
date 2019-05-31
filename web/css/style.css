@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 body {
-    font-family: 'Myriad Set Pro', sans-serif;
     font-family: 'Open Sans', sans-serif;
     background-color: #2e3440;
     color: #2E3440;
@@ -70,13 +69,9 @@ body {
 }
 
 #footer-disclaimer {
-    position: fixed;
     background-color: #2e3440;
     padding: 5px 5px;
     border-radius: 3px;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 #footer-disclaimer > p {
@@ -89,5 +84,12 @@ body {
     body {
         width: 900px;
         margin: 20px auto;
+    }
+    
+    #footer-disclaimer {
+        position: fixed;
+        bottom: 5px;
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
